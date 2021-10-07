@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "arm-swa-1"
+        },
+        "location": { 
+            "value": "Central US"
+        },   
+        "sku": {
+            "value": "Free"
+        },
+        "skucode": {
+            "value": "Free"
+        },
+        "repositoryUrl": {
+            "value": "https://github.com/simonaco/arm-static-web-apps"
+        },
+        "branch": {
+            "value": "main"
+        },
+        "repositoryToken": {
+            "value": "TOKEN_HERE" 
+        },
+        "appLocation": {
+            "value": "/"
+        },
+        "apiLocation": {
+            "value": ""
+        },
+        "appArtifactLocation": {
+            "value": ""
+        },
+        "resourceTags": {
+            "value": {
+                "Environment": "Development",
+                "Project": "Testing SWA with ARM",
+                "ApplicationName": "myfirstswadeployment"
+            }
+        },
+        "appSettings": {
+            "value": {
+                "MY_APP_SETTING1": "value 1",
+                "MY_APP_SETTING2": "value 2"
+            }
+        }
+    }
+}
