@@ -44,6 +44,9 @@
                 "MY_APP_SETTING1": "value 1",
                 "MY_APP_SETTING2": "value 2"
             }
-        }
+        },
+        "frontDoorName": {
+            "value": "aswaarm3"
+          }
     }
 }
